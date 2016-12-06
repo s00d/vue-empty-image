@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examples for vue-empty-image</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.4/vue.js"></script>
+    <script src="../dist/vue-empty-image.js"></script>
+</head>
+<body>
+
+<h3><code>Example 1: 200x200</code></h3>
+<div id="example1">
+    <img v-empty-image="'200x200'" />
+</div>
+
+<hr/>
+
+<h3><code>Example 2: 300x300</code></h3>
+<div id="example2">
+    <img v-empty-image="size" />
+</div>
+
+
+<script>
+    new Vue({
+        el: '#example1',
+        mixins: [ VueEmptyImage.mixin ],
+    });
+    new Vue({
+        el: '#example2',
+        mixins: [ VueEmptyImage.mixin ],
+        data: {
+            size: '300x300'
+        },
+    });
+</script>
+
+</body>
+</html>
