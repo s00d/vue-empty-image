@@ -22,7 +22,7 @@ $ npm install vue-empty-image --save
 
 ### `empty-image`
 
-A directive that binds focus to the expression in a one-way manner,
+A directive create empty image,
 
 ``` js
 import { emptyImage } from 'vue-empty-image';
