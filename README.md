@@ -4,7 +4,7 @@
 
 ## Overview
 
-Test images for vue
+Create empty test images for vue
 
 ## Requirements
 
