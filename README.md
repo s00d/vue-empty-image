@@ -6,6 +6,9 @@
 
 Create empty test images for vue
 
+![200x200](http://image.prntscr.com/image/212d108e7c834766a5423b73ebc5ecd4.png)
+![300x300](http://image.prntscr.com/image/ed81780fd41749b7b37bf0590c796d40.png)
+
 ## Requirements
 
 - vue: ^2.0.0
