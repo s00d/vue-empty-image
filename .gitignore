@@ -44,6 +44,5 @@ crashlytics-build.properties
 fabric.properties
 
 
-/node_modules/
-/.idea/
-package.json
+/node_modules/*
+/.idea/*
